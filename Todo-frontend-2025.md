@@ -1367,37 +1367,37 @@ todo-frontend/
 
 ### Pre-deployment Checklist
 
-- [ ] Node.js 18+ ติดตั้งแล้ว
-- [ ] Git ติดตั้งแล้ว
-- [ ] GitHub Account พร้อม
+- [x] Node.js 18+ ติดตั้งแล้ว
+- [x] Git ติดตั้งแล้ว
+- [x] GitHub Account พร้อม
 - [ ] Backend API ทำงานปกติ
-- [ ] CORS ตั้งค่าถูกต้อง
+- [x] CORS ตั้งค่าถูกต้อง
 
 ### Development Checklist
 
-- [ ] สร้างโปรเจกต์ Next.js
-- [ ] ติดตั้ง dependencies ครบ
-- [ ] สร้าง API layer (`src/lib/api.js`)
-- [ ] สร้าง components ทั้ง 3 ตัว
-- [ ] สร้าง main page
-- [ ] แก้ไข styling
-- [ ] ทดสอบ local ผ่าน
+- [x] สร้างโปรเจกต์ Next.js
+- [x] ติดตั้ง dependencies ครบ
+- [x] สร้าง API layer (`src/lib/api.js`)
+- [x] สร้าง components ทั้ง 3 ตัว
+- [x] สร้าง main page
+- [x] แก้ไข styling
+- [x] ทดสอบ local ผ่าน
 
 ### Deployment Checklist
 
-- [ ] สร้าง GitHub repository
-- [ ] สร้าง workflow file
-- [ ] ตั้งค่า GitHub Pages
-- [ ] ตั้งค่า workflow permissions
-- [ ] อัพเดท API URL ใน workflow
-- [ ] Push code ไป GitHub
-- [ ] Workflow รันสำเร็จ
-- [ ] Website เข้าถึงได้
+- [x] สร้าง GitHub repository
+- [x] สร้าง workflow file
+- [x] ตั้งค่า GitHub Pages
+- [x] ตั้งค่า workflow permissions
+- [x] อัพเดท API URL ใน workflow
+- [x] Push code ไป GitHub
+- [x] Workflow รันสำเร็จ
+- [x] Website เข้าถึงได้
 - [ ] ทดสอบ features ครบ
 
 ### Testing Checklist
 
-- [ ] เปิดหน้าเว็บได้
+- [x] เปิดหน้าเว็บได้
 - [ ] API Status เป็น "Connected"
 - [ ] เพิ่ม Todo ได้
 - [ ] ลบ Todo ได้
