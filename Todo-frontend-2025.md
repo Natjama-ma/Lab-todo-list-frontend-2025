@@ -1060,7 +1060,13 @@ npm run dev
 ## บันทึกรูปผลการทดลอง
 ```bash
 # บันทึกรูปผลการทดลองที่นี่
-``` 
+```
+
+<img width="1919" height="1016" alt="Screenshot 2025-10-29 214129" src="https://github.com/user-attachments/assets/05c4e7fb-e030-4dcb-affd-f45b3fd6f853" />
+
+
+<img width="1919" height="1009" alt="image" src="https://github.com/user-attachments/assets/c17e3d62-6ddb-414f-b916-f6b31db7481d" />
+
 
 ### ขั้นตอนที่ 8.4: Test Build
 
@@ -1175,6 +1181,9 @@ git push origin main
 ```bash
 # บันทึกรูปผลการ Deploy ที่นี่
 ```
+
+<img width="1919" height="1017" alt="image" src="https://github.com/user-attachments/assets/027bebe5-66b1-405e-8fa8-0ab5d3a2cc7a" />
+
 
 ### ขั้นตอนที่ 10.3: หา URL ของ Website
 
@@ -1400,8 +1409,21 @@ todo-frontend/
 ## ส่วนที่ 15: คำถามท้ายการทดลอง
 
 1. **CI/CD Pipeline**: อธิบายขั้นตอนใน GitHub Actions workflow
-2. **CORS**: ทำไม Backend ต้อง enable CORS สำหรับ Frontend
+```
 
+- ทุกครั้งที่เราอัปโหลดโค้ดขึ้น GitHub (push) หรือขอรวมโค้ด (pull request) ระบบจะเริ่มทำงานอัตโนมัติ
+- ระบบจะดึงโค้ดล่าสุดมาตรวจสอบ ติดตั้งโปรแกรมที่จำเป็น และสั่ง build โค้ดให้พร้อมใช้งาน
+- ถ้าไม่มีปัญหา ก็จะ deploy หรือปล่อยโค้ดขึ้นเซิร์ฟเวอร์ให้เราอัตโนมัติ
+- ข้อดีคือช่วยให้มั่นใจว่าโค้ดที่ขึ้นไปใช้งานจริงจะผ่านการตรวจสอบและ build ทุกครั้ง
+
+```
+2. **CORS**: ทำไม Backend ต้อง enable CORS สำหรับ Frontend
+```
+- เวลาที่เว็บ frontend กับ backend อยู่คนละที่ (เช่น คนละ port หรือ domain) ถ้า backend ไม่เปิด CORS เว็บ frontend จะเรียกข้อมูลจาก backend ไม่ได้เลย เพราะ browser จะบล็อกไว้เพื่อความปลอดภัย
+- การ enable CORS คือการบอก browser ว่า "อนุญาตให้เว็บนี้เข้ามาขอข้อมูลกับฉันได้นะ"
+- ถ้าไม่เปิด CORS เว็บเราจะดึงข้อมูลจาก backend ไม่ได้เลย
+
+```
 
 ## ส่วนที่ 16: แหล่งข้อมูลเพิ่มเติม
 
@@ -1430,8 +1452,8 @@ todo-frontend/
 
 ## สรุป
 **URL ของนักศึกษาคือ**:
-- Frontend: `https://your-username.github.io/todo-frontend/`
-- Backend: `https://your-backend.onrender.com`
+- Frontend: `https://natjama-ma.github.io/todo-frontend/`
+- Backend: `https://flask-todo-app-o1tg.onrender.com`
 
 ---
 
